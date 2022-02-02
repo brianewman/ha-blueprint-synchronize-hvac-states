@@ -33,4 +33,4 @@ action:
     entity_id: '{% if trigger.from_state.entity_id == entity_1 %} {{ entity_2 }} {%
       else %} {{ entity_1 }} {% endif %}'
   data:
-    hvac_mode: {{ trigger.to_state.state }}
+    hvac_mode: '{{ trigger.to_state.state }}'
