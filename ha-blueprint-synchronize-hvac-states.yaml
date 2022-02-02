@@ -16,6 +16,7 @@ blueprint:
   source_url: https://github.com/brianewman/ha-blueprint-synchronize-hvac-states/blob/main/ha-blueprint-synchronize-hvac-states.yaml
 mode: single
 max_exceeded: silent
+
 variables:
   entity_1: !input 'entity_1'
   entity_2: !input 'entity_2'
