@@ -7,13 +7,13 @@ blueprint:
       name: First entity
       selector:
         entity: 
-		  domain: climate
+          domain: climate
     entity_2:
       name: Second entity
       selector:
-        entity: 
-		  domain: climate
-  source_url: https://community.home-assistant.io/t/synchronize-the-on-off-state-of-2-entities-single-run-mode/270813
+        entity:
+          domain: climate
+  source_url: https://github.com/brianewman/ha-blueprint-synchronize-hvac-states/ha-blueprint-synchronize-hvac-states.yaml
 mode: single
 max_exceeded: silent
 variables:
